@@ -94,6 +94,10 @@ body {
   font-weight: 400;
 }
 
+.gus-facts-item {
+  width: 374px;
+}
+
 .gus-facts-item-title {
   text-align: center;
   font-size: 24px;
