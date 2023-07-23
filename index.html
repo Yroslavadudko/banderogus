@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banderogus</title>
 
+    <link rel="preload" href="./img/gus-anim.gif" as="image">
+
     <link rel="stylesheet" href="./fonts/">
 
     <link rel="stylesheet" href="./css/style.css">
@@ -23,7 +25,7 @@
                     <p class="main-page-text">Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми
                         подвигами, бороню Батьківщину та підтримую
                         позитивний дух народу. Слава Україні!</p>
-                    <button class="main-page-button">Запустити гуся</button>
+                    <button class="main-page-button" id="go-to-form-btn">Запустити гуся</button>
                 </div>
             </div>
             <div class="main-page-right-side">
@@ -64,6 +66,32 @@
             </div>
         </div>
     </section>
+    <section class="form-section">
+        <form action="#" class="form-container" id="form" netlify>
+            <img src="./img/tryzub.svg" alt="Truzub">
+            <h4 class="form-title">
+                Поділися, будь ласка, поштою
+            </h4>
+            <p class="form-description">
+                та запиши гуся до бандерозагону
+            </p>
+            <div class="form-field">
+
+                <label for="user-name" class="form-field-label">Імʼя</label>
+                <input type="text" class="form-field-input" name="Імʼя" id="user-name">
+            </div>
+            <div class="form-field form-field-email">
+
+                <label for="user-email" class="form-field-label">Email</label>
+                <input type="email" class="form-field-input" name="Email" id="user-email">
+            </div>
+
+            <button class="form-button" id="launch-btn">Запустити гуся</button>
+        </form>
+
+
+    </section>
+    <script src="./js/form.js"></script>
 </body>
 
 </html>
